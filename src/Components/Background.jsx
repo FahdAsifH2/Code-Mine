@@ -154,18 +154,7 @@ function Background() {
           </div>
         </div>
         
-        {/* Tech Stack Tags */}
-        <div className="mt-6 flex flex-wrap justify-center gap-2 opacity-0" style={{
-          animation: 'fadeInUp 2s ease-out 1.5s forwards'
-        }}>
-          {['Python', 'Java', 'C++', 'Algorithms', 'Data Structures'].map((tech, i) => (
-            <span key={tech} className="px-3 py-1 bg-slate-800/50 border border-teal-500/30 rounded-full text-teal-300 font-mono text-xs" style={{
-              animation: `tagFloat 3s ease-in-out infinite ${i * 0.2}s`
-            }}>
-              {tech}
-            </span>
-          ))}
-        </div>
+      
       </div>
       
       {/* Scan Line Effect */}
