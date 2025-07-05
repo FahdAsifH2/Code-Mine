@@ -154,16 +154,6 @@ function Background() {
           </div>
         </div>
         
-        {/* Status Bar */}
-        <div className="mt-8 mx-auto max-w-md bg-slate-800/60 backdrop-blur-sm border border-teal-500/40 rounded-lg p-4 font-mono text-xs">
-          <div className="flex justify-between items-center text-teal-300">
-            <span>Status: <span className="text-green-400">Online</span></span>
-            <span>Version: <span className="text-amber-400">2.1.0</span></span>
-          </div>
-          <div className="bg-gradient-to-r from-teal-500 to-cyan-400 h-2 rounded-full animate-fill"></div>
-          <div className="mt-1 text-gray-400 text-center">CS Resources...</div>
-        </div>
-        
         {/* Tech Stack Tags */}
         <div className="mt-6 flex flex-wrap justify-center gap-2 opacity-0" style={{
           animation: 'fadeInUp 2s ease-out 1.5s forwards'
