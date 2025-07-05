@@ -13,7 +13,7 @@ function Foregound() {
 
   return (
     <div>
-      <div className="flex items-center justify-center gap-10 fixed top-0 left-0 z-[3] w-full h-full mt-20">
+      <div className="flex items-center justify-center gap-10 fixed top-0 left-0 z-[3] w-full h-full mt-20 px-30">
         <Card
           title={p1}
           description={p1Data}
