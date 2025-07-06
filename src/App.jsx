@@ -13,8 +13,13 @@ function App() {
       <Routes>
         <Route path="/" element={
           <>
-            <Background />
+
+            <div className='absolute inset-0 z-0'>
+            <Background/>
+            </div>
+            
             <Foregound />
+          
           </>
         } />
         <Route path="/Paper1" element={<Paper1 />} />

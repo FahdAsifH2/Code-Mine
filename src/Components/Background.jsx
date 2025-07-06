@@ -165,9 +165,12 @@ function Background() {
         </div>
         
         {/* Footer */}
+     
         <div className="relative z-20">
           <Footer />
         </div>
+
+
       </div>
       
       {/* CSS Animations */}
