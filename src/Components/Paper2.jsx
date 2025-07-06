@@ -4,7 +4,7 @@ import SubjectCards from './SubjectCards';
 const cards = [
   { title: 'Data Types', description: 'Data types in programming.', pdf: '/pdfs/data_types.pdf' },
   { title: 'If & Else', description: 'Conditonal Statements in programming.', pdf: '/pdfs/If_Else.pdf' },
-  { title: 'OPERATORS', description: 'Operators', pdf: '/pdfs/OPERATORS.pdf' },
+  { title: 'OPERATORS', description: 'Operators in programming', pdf: '/pdfs/OPERATORS.pdf' },
   { title: 'Card 4', description: 'Desc 4', pdf: '/pdfs/card4.pdf' },
   { title: 'Card 5', description: 'Desc 5', pdf: '/pdfs/card5.pdf' },
   { title: 'Card 6', description: 'Desc 6', pdf: '/pdfs/card6.pdf' },
