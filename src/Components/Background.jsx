@@ -166,7 +166,7 @@ function Background() {
         
         {/* Footer */}
      
-        <div className="relative z-20">
+        <div className="fixed bottom-0 w-full z-20">
           <Footer />
         </div>
 
