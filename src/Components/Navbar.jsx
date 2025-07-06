@@ -15,8 +15,9 @@ const Navbar = () => {
           <span className="text-amber-400 px-1">CODE MINE.</span>
           <span className="text-gray-500">/&gt;</span>
           </div>
-          
         </div>
+ 
+          
 
         {/* Optional: Right side space filler, buttons, links etc */}
         {/* <div>Right Side Content</div> */}
