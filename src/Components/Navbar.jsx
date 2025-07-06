@@ -4,7 +4,7 @@ import logo from '/logo.png'; // ❗ remove '/public' — just use '/logo.png'
 const Navbar = () => {
   return (
     <div>
-      <div className='text-lg flex justify-between items-center py-1 px-4 bg-gradient-to-r from-teal-900 via-slate-900 to-teal-900 text-green-400 font-mono shadow-2xl backdrop-blur-sm border-b border-teal-600/30'>
+      <div className='text-sm flex justify-between items-center py-1 px-4 bg-gradient-to-r from-teal-900 via-slate-900 to-teal-900 text-green-400 font-mono shadow-2xl backdrop-blur-sm border-b border-teal-600/30'>
 
         {/* Left side: Logo + CODE MINE */}
         <div className='flex items-center'>
