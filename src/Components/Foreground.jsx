@@ -1,24 +1,26 @@
+
+// Foreground.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Card from './Card';
 
-function Foregound() {
+function Foreground() {
   const navigate = useNavigate();
-
+  
   const [p1, setP1] = useState("P1");
   const [p1Data, setP1Data] = useState("Covers systems, logic gates, networking, and theory essentials.");
-
+  
   const [p2, setP2] = useState("P2");
   const [p2Data, setP2Data] = useState("Covers pseudocode, algorithms, flowcharts, and programming.");
-
+  
   return (
-    <div>
-      <div className="flex items-center justify-center gap-10 fixed top-0 left-0 z-[3] w-full h-full mt-20 px-30">
+    <div className="relative z-20 w-full h-full">
+      <div className="flex items-center justify-center gap-10 w-full h-screen pt-20 px-4">
         <Card
           title={p1}
           description={p1Data}
           onClick={() => {
-            alert("P1");
+            console.log("P1 clicked"); // Better for debugging than alert
             navigate('/Paper1');
           }}
         />
@@ -26,7 +28,7 @@ function Foregound() {
           title={p2}
           description={p2Data}
           onClick={() => {
-            alert("P2");
+            console.log("P2 clicked"); // Better for debugging than alert
             navigate('/Paper2');
           }}
         />
@@ -35,4 +37,4 @@ function Foregound() {
   );
 }
 
-export default Foregound;
+export default Foreground
