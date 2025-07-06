@@ -1,7 +1,8 @@
 import React from 'react';
-import Background from './Background'; // ✅ Make sure the path is correct
+import Background from './Background';
+import SubjectCards from './SubjectCards';
 const cards = [
-  { title: 'Card 1', description: 'Desc 1', pdf: '/pdfs/data_types.pdf' },
+  { title: 'Data Types', description: 'Data types in programming define the kind of data a variable can hold, such as numbers, text, or boolean values.', pdf: '/pdfs/data_types.pdf' },
   { title: 'Card 2', description: 'Desc 2', pdf: '/pdfs/card2.pdf' },
   { title: 'Card 3', description: 'Desc 3', pdf: '/pdfs/card3.pdf' },
   { title: 'Card 4', description: 'Desc 4', pdf: '/pdfs/card4.pdf' },
@@ -14,6 +15,8 @@ const cards = [
   { title: 'Card 11', description: 'Desc 11', pdf: '/pdfs/card11.pdf' },
   { title: 'Card 12', description: 'Desc 12', pdf: '/pdfs/card12.pdf' },
 ];
+
+
 const Paper1 = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
