@@ -15,6 +15,19 @@ const Navbar = () => {
           <span className="text-amber-400 px-1">CODE MINE.</span>
           <span className="text-gray-500">/&gt;</span>
           </div>
+
+          <div className='px-2 font-xl'> 
+          <span className="text-gray-500">&lt;</span>
+          <span className="text-amber-400 px-1">Developed by Fahd Asif.</span>
+          <span className="text-gray-500">/&gt;</span>
+          </div>
+
+          
+          <div className='px-2 font-xl'> 
+          <span className="text-gray-500">&lt;</span>
+          <span className="text-amber-400 px-1">FREE NOTES.</span>
+          <span className="text-gray-500">/&gt;</span>
+          </div>
         </div>
  
           
