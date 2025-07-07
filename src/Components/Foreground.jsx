@@ -15,7 +15,7 @@ function Foreground() {
   
   return (
     <div className="relative z-20 w-full h-full">
-      <div className="flex items-center justify-center gap-10 w-full h-screen pt-20 px-4">
+      <div className="flex items-center justify-center gap-5 w-full h-screen pt-20 px-4">
         <Card
           title={p1}
           description={p1Data}

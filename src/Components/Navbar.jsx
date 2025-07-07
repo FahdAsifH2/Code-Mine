@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '/logo.png'; // ❗ remove '/public' — just use '/logo.png'
+import logo from '/logo.png';
 
 const Navbar = () => {
   return (
@@ -8,32 +8,30 @@ const Navbar = () => {
 
         {/* Left side: Logo + CODE MINE */}
         <div className='flex items-center'>
-          <img src={logo} alt="Logo" className='h-10 w-10 ' />
+          <img src={logo} alt="Logo" className='h-10 w-10' />
 
           <div className='px-2 font-xl'> 
-          <span className="text-gray-500">&lt;</span>
-          <span className="text-amber-400 px-1">CODE MINE.</span>
-          <span className="text-gray-500">/&gt;</span>
-          </div>
-
-          <div className='px-2 font-xl'> 
-          <span className="text-gray-500">&lt;</span>
-          <span className="text-amber-400 px-1">Developed by Fahd Asif.</span>
-          <span className="text-gray-500">/&gt;</span>
-          </div>
-
-          
-          <div className='px-2 font-xl'> 
-          <span className="text-gray-500">&lt;</span>
-          <span className="text-amber-400 px-1">FREE NOTES.</span>
-          <span className="text-gray-500">/&gt;</span>
+            <span className="text-gray-500">&lt;</span>
+            <span className="text-amber-400 px-1">CODE MINE</span>
+            <span className="text-gray-500">/&gt;</span>
           </div>
         </div>
- 
-          
 
-        {/* Optional: Right side space filler, buttons, links etc */}
-        {/* <div>Right Side Content</div> */}
+        {/* Center: by Fahd Asif */}
+        <div className='absolute left-1/2 transform -translate-x-1/2 font-xl'> 
+          <span className="text-gray-500">&lt;</span>
+          <span className="text-amber-400 px-1">by Fahd Asif.</span>
+          <span className="text-gray-500">/&gt;</span>
+        </div>
+
+       
+        {/* Right: FREE NOTES */}
+        <div className='font-xl'> 
+          <span className="text-gray-500">&lt;</span>
+          <span className="text-amber-400 px-1">FREE NOTES</span>
+          <span className="text-gray-500">/&gt;</span>
+        </div>
+
 
       </div>
     </div>
