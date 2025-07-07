@@ -154,7 +154,7 @@ function Background() {
             <h1 className="font-mono pt-10 mb-100 font-bold text-6xl md:text-8xl leading-none tracking-tight bg-gradient-to-r from-teal-300 via-cyan-200 to-green-400 bg-clip-text text-transparent filter drop-shadow-2xl" style={{
               animation: 'codeGlow 3s ease-in-out infinite alternate'
             }}>
-              CODEMINE.
+              CODE MINE
             </h1>
             
             {/* Code Comment Style Underline */}
