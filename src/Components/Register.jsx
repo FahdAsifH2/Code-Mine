@@ -30,9 +30,7 @@ function Register({ onBack }) {
   return (
     <div className="relative min-h-screen">
       {/* Background */}
-      <div className="absolute inset-0 z-0">
-        <Background />
-      </div>
+     
 
       {/* Centered content */}
       <div className="relative z-10 min-h-screen flex flex-col items-center justify-center px-4 w-full">
