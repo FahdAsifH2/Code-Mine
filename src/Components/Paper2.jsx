@@ -1,6 +1,7 @@
 import React from 'react';
 import Background from './Background';
 import SubjectCards from './SubjectCards';
+import Navbar from './Navbar';
 const cards = [
   { title: 'Data Types', description: 'Data types in programming.', pdf: '/pdfs/data_types.pdf' },
   { title: 'If & Else', description: 'Conditonal Statements in programming.', pdf: '/pdfs/If_Else.pdf' },
@@ -20,13 +21,15 @@ const cards = [
 const Paper2 = () => {
   return (
     <div className="relative min-h-screen overflow-hidden">
+      
+      
       {/* Background */}
       <div className="absolute inset-0 z-0">
         <Background />
       </div>
 
       {/* Foreground */}
-      <div className="relative bottom-10 z-10 flex flex-wrap justify-center gap-x-15 gap-y-10 pt-20 px-4 mt-40 ">
+      <div className="relative bottom-10 z-10 flex flex-wrap justify-center gap-x-15 gap-y-10 pt-20 px-4  mt-40 ">
         {cards.map((card, index) => (
           <a
             key={index}

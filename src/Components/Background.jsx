@@ -9,9 +9,9 @@ function Background() {
       <div className="fixed top-0 left-0 w-full z-50">
         <Navbar />
       </div>
-
-      {/* Full Height Background Container */}
-      <div className="absolute inset-0 w-full h-full min-h-screen overflow-hidden" style={{
+    
+      {/* Full Height Background Container - FIXED: Now uses fixed positioning to cover entire viewport */}
+      <div className="fixed inset-0 w-full h-full overflow-hidden" style={{
         background: 'linear-gradient(to bottom right, rgb(2 6 23), rgb(19 78 74), rgb(15 23 42))'
       }}>
         {/* Code-themed Background Elements */}
@@ -151,7 +151,7 @@ function Background() {
               <span className="text-white"> CODE_MINE</span>
             </div>
             
-            <h1 className="font-mono pt-10 mb-100 font-bold text-6xl md:text-8xl leading-none tracking-tight bg-gradient-to-r from-teal-300 via-cyan-200 to-green-400 bg-clip-text text-transparent filter drop-shadow-2xl" style={{
+            <h1 className="font-mono  mb-100 font-bold text-6xl md:text-8xl leading-none tracking-tight bg-gradient-to-r from-teal-300 via-cyan-200 to-green-400 bg-clip-text text-transparent filter drop-shadow-2xl" style={{
               animation: 'codeGlow 3s ease-in-out infinite alternate'
             }}>
               CODE MINE
@@ -165,12 +165,9 @@ function Background() {
         </div>
         
         {/* Footer */}
-     
         <div className="fixed bottom-0 w-full z-20 ">
           <Footer />
         </div>
-
-
       </div>
       
       {/* CSS Animations */}
