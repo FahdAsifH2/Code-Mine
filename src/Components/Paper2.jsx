@@ -26,7 +26,7 @@ const Paper2 = () => {
       </div>
 
       {/* Foreground */}
-      <div className="relative bottom-10 z-10 flex flex-wrap justify-center gap-x-6 gap-y-10 pt-20 px-4 mt-40 ">
+      <div className="relative bottom-10 z-10 flex flex-wrap justify-center gap-x-15 gap-y-10 pt-20 px-4 mt-40 ">
         {cards.map((card, index) => (
           <a
             key={index}
