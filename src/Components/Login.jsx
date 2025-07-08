@@ -16,7 +16,7 @@ function Login() {
     setError(null);
     try {
       await doSignInWithEmailAndPassword(email, pass);
-      alert("Login Successful");
+      
       navigate('/home')
     } catch (err) {
       setError(err.message);
