@@ -7,7 +7,7 @@ const cards = [
   { title: 'If & Else', description: 'Conditonal Statements in programming.', pdf: '/pdfs/If_Else.pdf' },
   { title: 'OPERATORS', description: 'Operators in programming', pdf: '/pdfs/OPERATORS.pdf' },
   { title: 'For Loops', description: 'Starting with for loops here', pdf: '/pdfs/For_Loops.pdf' },
-  { title: 'Card 5', description: 'Desc 5', pdf: '/pdfs/card5.pdf' },
+  { title: 'While Loops', description: 'While Loops Another Precondition Loop', pdf: '/pdfs/WHILE_LOOPS.pdf' },
   { title: 'Card 6', description: 'Desc 6', pdf: '/pdfs/card6.pdf' },
   { title: 'Card 7', description: 'Desc 7', pdf: '/pdfs/card7.pdf' },
   { title: 'Card 8', description: 'Desc 8', pdf: '/pdfs/card8.pdf' },
