@@ -5,7 +5,7 @@ import SubjectCards from './SubjectCards';
 const cards = [
   { title: 'SOFTWARE Part 1', description: 'These notes cover first half of Chap 4 Software', pdf: '/pdfs/Software_part1.pdf' },
   { title: 'Data Transmission', description: 'Data Transmission is how data moves between devices using different methods, modes, and timing.', pdf: '/pdfs/Data_Transmission.pdf' },
-  { title: 'Card 3', description: 'Desc 3', pdf: '/pdfs/card3.pdf' },
+ // { title: 'Card 3', description: 'Desc 3', pdf: '/pdfs/card3.pdf' },
 ];
 
 const Paper1 = () => {
