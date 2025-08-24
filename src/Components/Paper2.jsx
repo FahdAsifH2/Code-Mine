@@ -9,7 +9,7 @@ const cards = [
   { title: 'For Loops', description: 'Starting with for loops here', pdf: '/pdfs/For_Loops.pdf' },
   { title: 'While Loops', description: 'While Loops Another Precondition Loop', pdf: '/pdfs/WHILE_LOOPS.pdf' },
   { title: 'Repeat Until', description: 'Post Condition Loops', pdf: '/pdfs/REPEAT_UNTIL_Loop.pdf' },
-  // { title: 'Card 7', description: 'Desc 7', pdf: '/pdfs/card7.pdf' },
+   { title: 'Card 7', description: 'Desc 7', pdf: '/pdfs/card7.pdf' },
   // { title: 'Card 8', description: 'Desc 8', pdf: '/pdfs/card8.pdf' },
   // { title: 'Card 9', description: 'Desc 9', pdf: '/pdfs/card9.pdf' },
   // { title: 'Card 10', description: 'Desc 10', pdf: '/pdfs/card10.pdf' },
