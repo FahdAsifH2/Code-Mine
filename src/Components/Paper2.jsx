@@ -12,9 +12,11 @@ const cards = [
    { title: 'Arrays', description: 'O-Levels Arrays', pdf: '/pdfs/arrays.pdf' },
    { title: 'String Operations', description: 'String Operations for Strings', pdf: '/pdfs/stringoperations.pdf' },
    { title: 'Function and Procedures', description: 'Detailed comparison of functions and procedures', pdf: '/pdfs/functionsprocedure.pdf' },
-  // { title: 'Card 10', description: 'Desc 10', pdf: '/pdfs/card10.pdf' },
-  // { title: 'Card 11', description: 'Desc 11', pdf: '/pdfs/card11.pdf' },
-  // { title: 'Card 12', description: 'Desc 12', pdf: '/pdfs/card12.pdf' },
+  { title: 'File handeling', description: 'All Functions of File handeling', pdf: '/pdfs/filehandeling.pdf' },
+  { title: 'Flow Charts', description: 'All Sorts of shapes in Flow charts', pdf: '/pdfs/flowcharts.pdf' },
+  { title: 'Linear Search', description: 'How to search in a Array', pdf: '/pdfs/linearsearch.pdf' },
+  { title: 'Bubble Sort', description: 'How to sort a Array', pdf: '/pdfs/bubblesort.pdf' },
+  
 ];
 
 
