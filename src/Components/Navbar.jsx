@@ -20,7 +20,7 @@ const Navbar = () => {
         {/* Center: by Fahd Asif */}
         <div className='absolute left-1/2 transform -translate-x-1/2 font-xl'> 
           <span className="text-gray-500">&lt;</span>
-          <span className="text-amber-400 px-1">by Fahd Asif.</span>
+          <span className="text-amber-400 px-1">Makkah Furnitures.</span>
           <span className="text-gray-500">/&gt;</span>
         </div>
 
