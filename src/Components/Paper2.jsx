@@ -41,7 +41,7 @@ const Paper2 = () => {
           >
             <SubjectCards title={card.title} description={card.description} />
           </a>
-        ))}
+        ))} 
       </div>
     </div>
   );
