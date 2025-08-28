@@ -26,6 +26,8 @@ const VisitorTracker = () => {
           region: locationData.region || 'Unknown',
           timezone: locationData.timezone || 'Unknown',
           isp: locationData.org || 'Unknown',
+          latitude: locationData.latitude || null,
+          longitude: locationData.longitude || null,
           currentPage: window.location.pathname,
           referrer: document.referrer || 'Direct',
           userAgent: navigator.userAgent,
@@ -44,6 +46,8 @@ const VisitorTracker = () => {
           ip: 'Error',
           country: 'Error', 
           city: 'Error',
+          latitude: null,
+          longitude: null,
           error: error.message,
           timestamp: new Date().toISOString()
         });
@@ -116,6 +120,8 @@ const dbHandler = async (req, res) => {
           region VARCHAR(100),
           timezone VARCHAR(50),
           isp TEXT,
+          latitude DECIMAL(10, 8),
+          longitude DECIMAL(11, 8),
           current_page VARCHAR(255),
           referrer TEXT,
           user_agent TEXT,
@@ -130,13 +136,13 @@ const dbHandler = async (req, res) => {
       // Insert visitor data
       const result = await pool.query(`
         INSERT INTO visitors (
-          ip, country, city, region, timezone, isp, current_page, 
+          ip, country, city, region, timezone, isp, latitude, longitude, current_page, 
           referrer, user_agent, language, screen_width, screen_height, error
-        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13) 
+        ) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15) 
         RETURNING id
       `, [
         data.ip, data.country, data.city, data.region, data.timezone,
-        data.isp, data.currentPage, data.referrer, data.userAgent,
+        data.isp, data.latitude, data.longitude, data.currentPage, data.referrer, data.userAgent,
         data.language, data.screenWidth, data.screenHeight, data.error
       ]);
 
@@ -147,7 +153,7 @@ const dbHandler = async (req, res) => {
       const limit = query?.limit || 100;
       const result = await pool.query(`
         SELECT 
-          id, ip, country, city, current_page, timestamp,
+          id, ip, country, city, latitude, longitude, current_page, timestamp,
           user_agent, referrer, error
         FROM visitors 
         ORDER BY timestamp DESC 
